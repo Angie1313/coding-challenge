@@ -1,0 +1,99 @@
+.changebutton{
+  text-align: center;
+  color:#00FF00;
+  text-decoration: underline;
+}
+.row{
+  justify-content: center;
+  column-gap: 15px;
+  height: 50px; 
+}
+.firstbox{
+  background-color:#FF0000;
+  width: 140px;
+  height:140px;
+  border-style: solid;
+  border-color: #000000;
+}
+.secondbox{
+  background-color:#0101DF;
+  width: 140px;
+  height:140px;
+  border-style: dashed;
+  border-color: #FFFF00;
+}
+.thirdbox{
+  background-color:RGB(73, 251, 53);
+  width: 140px;
+  height:140px;
+  border-style: solid;
+  border-color: #CC2EFA;
+
+}
+.hidebutton{
+  text-align: center;
+  color:#FF0000;
+  font-size:10px;
+  text-decoration: underline;
+}
+
+
+ h5{
+  text-align: center;
+ }
+ 
+
+h2{
+  text-align: center;
+}
+.change1{
+  width:110px;
+
+}
+.change2{
+ width:110px;
+}
+.change3{
+  width:110px;
+}
+.change4{
+  width:110px;
+}
+.changebuttons{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  font-size:13px;
+}
+.hide1{
+  width:110px;
+}
+.hide2{
+ width:110px;
+}
+.hide3{
+ width:110px;
+}
+.hide4{
+ width:110px;
+}
+
+.hidebuttons{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  font-size:13px;
+}
+.reset{
+ width:110px;
+}
+.showall{
+  width:110px;
+}
+
+.bottombuttons{
+  display: flex;
+  justify-content: center;
+  column-gap: 251px;
+  font-size:13px;
+}

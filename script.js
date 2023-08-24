@@ -1,0 +1,50 @@
+$(document).ready(function(){
+  $(".hide1").click(function(){
+    $(".firstbox").css("visibility","hidden");
+  });
+  $(".hide2").click(function(){
+    $(".secondbox").css("visibility","hidden");
+  });
+  $(".hide3").click(function(){
+    $(".thirdbox").css("visibility","hidden");
+  });
+  $(".hide4").click(function(){
+    $(".firstbox").css("visibility","hidden");
+    $(".secondbox").css("visibility","hidden");
+    $(".thirdbox").css("visibility","hidden");
+  });
+  $(".showall").click(function(){
+    $(".firstbox").css("visibility","visible");
+    $(".secondbox").css("visibility","visible");
+    $(".thirdbox").css("visibility","visible");
+});
+  $(".change1").click(function(){
+      $(".firstbox").css("background-color","#0101DF");
+      $(".firstbox").css("border-color","#01DF01");
+    })
+    $(".change2").click(function(){
+      $(".secondbox").css("background-color","#FFFF00");
+      $(".secondbox").css("border-color","#5F04B4");
+    })
+    $(".change3").click(function(){
+      $(".thirdbox").css("background-color","#EE82EE");
+      $(".thirdbox").css("border-color","#FF0000");
+    })
+    $(".change4").click(function(){
+      $(".firstbox").css("background-color","#4B088A");
+      $(".firstbox").css("border-color","#FFFF00");
+      $(".secondbox").css("background-color","#6E6E6E");
+      $(".secondbox").css("border-color","#FF0000");
+      $(".thirdbox").css("background-color","#FE9A2E");
+      $(".thirdbox").css("border-color","#2E9AFE");
+    })
+    $(".reset").click(function(){
+      $(".firstbox").css("background-color","#FF0000");
+      $(".firstbox").css("border-color","#000000");
+      $(".secondbox").css("background-color","#0101DF");
+      $(".secondbox").css("border-color","#FFFF00");
+      $(".thirdbox").css("background-color","RGB(73, 251, 53)");
+      $(".thirdbox").css("border-color","#CC2EFA");
+      })
+
+});
